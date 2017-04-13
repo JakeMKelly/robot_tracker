@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   get 'welcome/index'
 
-  root "portals#open"
+  root "welcome#index"
 
   get '/open', to: 'portals#open', as: 'open_portal'
   get '/closed', to: 'portals#closed', as: 'closed_portal'
