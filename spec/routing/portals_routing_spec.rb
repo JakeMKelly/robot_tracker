@@ -9,8 +9,4 @@ RSpec.describe "Routing to portals", type: :routing do
   it 'routes get /closed to portals#closed' do
     expect(get: "/closed").to route_to("portals#closed")
   end
-
-  it 'routes get / to portals#open' do
-    expect(get: "/").to route_to("portals#open")
-  end
 end
