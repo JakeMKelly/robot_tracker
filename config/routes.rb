@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'welcome/index'
+
   root "portals#open"
 
   get '/open', to: 'portals#open', as: 'open_portal'
