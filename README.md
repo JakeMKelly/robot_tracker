@@ -1,14 +1,14 @@
-#PSKLRMRFI
+# Robot Marketplace
 
-##Team
+## Team
  * Jake Kelly
  * Jeff Kranking
  * Warner Nielsen
 
 
-##Site
+## Site
 
-https://robot-army-uh-i-mean-catalog.herokuapp.com/
+https://robot-marketplace.herokuapp.com/
 
 ##### HANDLING PAYMENTS #####
 - transferring funds: https://stripe.com/docs/connect/bank-transfers
