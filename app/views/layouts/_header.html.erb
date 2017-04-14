@@ -11,9 +11,9 @@
       </ul>
       <ul class="nav navbar-nav navbar-left">
       <% if admin? %>
-        <li id=title><%= link_to "PSKLMRFI", robots_path %></li>
+        <li id=title><%= link_to "Inventory", robots_path %></li>
       <% else %>
-        <li id=title><%= link_to "PSKLMRFI", user_path(session_current_user) %></li>
+        <li id=title><%= link_to "My Profile", user_path(session_current_user) %></li>
       <% end %>
         <li><%= link_to "Welcome #{session_current_user.username}", user_path(session_current_user)%></li>
       </ul>
